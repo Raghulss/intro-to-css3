@@ -1,0 +1,142 @@
+/*For padding the body*/
+body{
+  padding: 1%;
+  margin: 1%;
+}
+
+/* for header*/
+
+header{
+  background-image: url("../images/flywheel.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 45px;
+  padding-top: 20px;
+}
+
+/* h1 changes*/
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+/*for nav bar*/
+
+nav{
+  box-sizing: border-box;
+  text-align: center;
+  padding-left:20px;
+}
+
+nav a{
+  display: inline-block;
+  background-color: rgba(255,255,255,0.5);
+  color: #000000;
+  border-radius: 5px;
+  margin: 1% 5% 1% 0;
+  padding: 1% 5%;
+  text-decoration: none;
+}
+
+/*for class active*/
+
+.active{
+  background-color: rgba(255,255,255,1);
+}
+
+/*for left aligning image section*/
+
+.left{
+  background-color: #777613;
+  display: inline-block;
+  height: 100vh;
+  width: 20%;
+  float: left;
+  padding: 1% 0;
+}
+
+.left img{
+  width: 70%;
+  display: block;
+  border: 2px solid #000000;
+  margin: 20px auto;
+}
+
+/*for aligning the text section aside the image section*/
+
+.right{
+  display: inline-block;
+  width: 75%;
+  padding-left: 2%;
+}
+
+/* table formatting*/
+
+th,tr{
+  font-family: "Century Gothic";
+  font-weight: bold;
+  font-size: 100%;
+}
+
+th,td{
+  padding: 1% 0 1% 1%;
+  line-height: 20px;
+  box-sizing: border-box;
+  text-shadow: 1px 1px #000000;
+}
+
+th{
+  background-color: #92a252;
+  border-radius: 5px 5px 0 0;
+  border:solid 1px #fa07e9c7;
+  border-bottom: solid 3px #fa07e9;
+  color: #fbfbf9;
+  font-style: italic;
+  font-weight: bolder;
+  text-transform: uppercase;
+
+
+}
+
+td{
+  background-color: #e4f5d4;
+  border-radius: 2px;
+  color: #929391;
+  height: 10%;
+  margin: 2px;
+  opacity: 0.7;
+}
+
+tr td,tr th{
+  text-align: center;
+  width: 150px;
+}
+
+tr td:first-child , tr th:first-child{
+  text-align: left;
+  width: 380px;
+}
+
+ /*for centering the whole table*/
+
+table{
+  margin: 0 auto;
+}
+
+tr:hover td{
+  opacity: 1;
+}
+
+/*applying gradient to table head*/
+
+th{
+	background: #0057ff;
+	background: -moz-linear-gradient(top, #0057ff 0%, #fa07e9c7 100%);
+	background: -webkit-linear-gradient(#0057ff 0%, #fa07e9c7 100%);
+	background: -o-linear-gradient(#0057ff 0%, #fa07e9c7 100%);
+	background: linear-gradient(#0057ff 0%, #fa07e9c7 100%);
+}
